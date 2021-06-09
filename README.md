@@ -6,8 +6,8 @@ A skeleton flask app to use for a coding challenge.
 
 You can use a virtual environment (conda, venv, etc):
 ```
-conda env create -f environment.yml
-source activate user-profiles
+python3 -m venv /coding_challenge
+source /coding_challenge/bin/activate
 ```
 
 Or just pip install from the requirements file
