@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+bin/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -74,6 +75,7 @@ target/
 
 # pyenv
 .python-version
+pyvenv.cfg
 
 # celery beat schedule file
 celerybeat-schedule
