@@ -16,6 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## Running the code
+```
+python -m run
+```
 
 ### Spin up the service
 
@@ -29,6 +32,9 @@ python -m run
 ```
 curl -i "http://127.0.0.1:5000/health-check"
 ```
-
+```
+curl -i "http://127.0.0.1:5000/org-stats-agg?github_org={ORG}&bitbucket_team={TEAM}"
+```
 
 ## What'd I'd like to improve on...
+Will mention it while discussing the code
